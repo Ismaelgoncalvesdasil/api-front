@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export const Api = axios.create({
-  baseURL: 'http://localhost:3000/',
+  baseURL: 'https://api-front-uq2q.onrender.com',
   // baseURL: 'https://apipgc2-test8.onrender.com/'
 });
